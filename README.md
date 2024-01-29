@@ -27,3 +27,17 @@ source ~/miniforge3/bin/activate
 ##check version
 conda --version
 
+##set the path of conda, so mac can invoke the conda
+###open path terminal
+nano ~/.zshrc
+###in nano 
+export PATH="$HOME/miniforge3/bin:$PATH"    ###"/miniforge3/bin" is your conda bin path modify it to your path
+###save change (terminal)
+Ctrl + O
+###activate change (terminal)
+source ~/.zshrc
+###check conda env default (can invoke conda xxx at terminal since then)
+conda --version
+
+
+
