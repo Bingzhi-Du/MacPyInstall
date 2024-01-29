@@ -1,9 +1,9 @@
 # PyInstall
 mac python installation for ml local test
-#install of homebrew
+##install of homebrew
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
-#install of python
+##install of python
 brew install python
-#check version
+##check version
 python3 --version
 pip3 --version
