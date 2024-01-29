@@ -17,3 +17,13 @@ pip3 --version
 
 ##download conda modifed version for apple silicon
 https://github.com/conda-forge/miniforge?tab=readme-ov-file
+
+##to the file located
+cd ~/Donwloads
+
+##activate conda env
+source ~/miniforge3/bin/activate
+
+##check version
+conda --version
+
