@@ -14,3 +14,6 @@ brew install python
 
 python3 --version
 pip3 --version
+
+##download conda modifed version for apple sillicon
+https://github.com/conda-forge/miniforge?tab=readme-ov-file
