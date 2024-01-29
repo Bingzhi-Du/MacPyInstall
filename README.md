@@ -39,5 +39,13 @@ source ~/.zshrc
 ###check conda env default (can invoke conda xxx at terminal since then)
 conda --version
 
+#Python env
+
+conda create -n myenv python=3.9    ###"myenv" is your environment name
+
+#activate Python env
+
+
+
 
 
