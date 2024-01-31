@@ -34,8 +34,10 @@ nano ~/.zshrc
 export PATH="$HOME/miniforge3/bin:$PATH"    ###"/miniforge3/bin" is your conda bin path modify it to your path
 ###save change (terminal)
 Ctrl + O
-###activate change (terminal)
+###activate change (terminal) 
 source ~/.zshrc
+###restart your mac
+
 ###check conda env default (can invoke conda xxx at terminal since then)
 conda --version
 
@@ -44,6 +46,11 @@ conda --version
 conda create -n myenv python=3.9    ###"myenv" is your environment name
 
 #activate Python env
+
+in env:
+python
+import torch
+print(torch.backends.mps.is_available())
 
 
 
