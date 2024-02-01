@@ -15,12 +15,12 @@ Homebrew is a package manager for macOS. Execute the following command to instal
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 ```
 
-## install of python
+## install of python (optional, conda will instead)
 
 ```
 brew install python
 ```
-### check version
+### check version (optional, conda will instead)
 ```
 python3 --version
 pip3 --version
