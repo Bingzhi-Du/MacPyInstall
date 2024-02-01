@@ -20,23 +20,23 @@ Homebrew is a package manager for macOS. Execute the following command to instal
 ```
 brew install python
 ```
-## check version
+### check version
 ```
 python3 --version
 pip3 --version
 ```
-## download conda modifed version for apple silicon
+### download conda modifed version for apple silicon
 https://github.com/conda-forge/miniforge?tab=readme-ov-file
 
-## to the file located
+### to the file located
 ```
 cd ~/Donwloads
 ```
-## activate conda env
+### activate conda env (temporarily, **path not set**)
 ```
 source ~/miniforge3/bin/activate
 ```
-## check version
+### check version
 ```
 conda --version
 ```
@@ -45,12 +45,12 @@ conda --version
 ```
 nano ~/.zshrc
 ```
-### in nano
+### in **nano**
 ```
 export PATH="$HOME/miniforge3/bin:$PATH"    ###"/miniforge3/bin" is your conda bin path modify it to your path
 ```
 ### save change (terminal)
-Ctrl + O
+**Ctrl + O**
 ### activate change (terminal)
 ```
 source ~/.zshrc
@@ -65,12 +65,19 @@ conda --version
 ```
 conda create -n myenv python=3.9    ###"myenv" is your environment name
 ```
-# activate Python env
+
+
+## activate Python env
 ```
 conda activate myenv
 ```
-test mac gpu
-in env:
+
+## install packages
+```
+conda install
+pip install
+```
+## test mac gpu - in env ():
 ```
 python
 import torch
