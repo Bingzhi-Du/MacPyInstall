@@ -1,9 +1,17 @@
-# PyInstall
+# PyInstall Guide
 
-mac python installation for ml local test
+This guide provides instructions for setting up a local machine learning test environment on macOS. It includes steps for installing Python through Homebrew and setting up a Conda environment optimized for Apple Silicon.
 
-##install of homebrew
+## Prerequisites
 
+- macOS
+- Terminal access
+
+## Installing Homebrew
+
+Homebrew is a package manager for macOS. Execute the following command to install Homebrew:
+
+```bash
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 
 ##install of python
