@@ -11,9 +11,9 @@ This guide provides instructions for setting up a local machine learning test en
 
 Homebrew is a package manager for macOS. Execute the following command to install Homebrew:
 
-`
+```
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
-`
+```
 
 ##install of python
 
