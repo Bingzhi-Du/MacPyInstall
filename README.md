@@ -49,7 +49,7 @@ nano ~/.zshrc
 ```
 export PATH="$HOME/miniforge3/bin:$PATH"    ###"/miniforge3/bin" is your conda bin path modify it to your path
 ```
-### 3.save change (terminal)
+### 3.save change (in *nano*)
 *Ctrl + O*
 ### 4.activate change (terminal)
 ```
