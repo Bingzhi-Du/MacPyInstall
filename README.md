@@ -83,8 +83,22 @@ python
 import torch
 print(torch.backends.mps.is_available())
 ```
+# C.Jupyter notebook 
 
-
-
+## a.install notebook for python
+```
+conda install jupyter
+```
+## b.ipykernel for env
+```
+install ipykernel
+```
+```
+python -m ipykernel install --user --name=your_environment_name    ###replace 'your_environment_name' by your env name
+```
+## c.check the env at ipkernel(@terminal)
+```
+jupyter notebook
+```
 
 
