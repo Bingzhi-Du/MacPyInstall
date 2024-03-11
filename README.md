@@ -1,4 +1,4 @@
-# A.PyInstall Guide
+# A.MAC PyInstall Guide
 
 This guide provides instructions for setting up a local machine learning test environment on macOS. It includes steps for installing Python through Homebrew and setting up a Conda environment optimized for Apple Silicon.
 
